@@ -164,14 +164,13 @@ function chartInit1(){
     
     <div class="weather">
          <div class="weather-left">
-            <div class="me" style="margin-left: 40px;display: flex;">{{ city2 }}天气</div>
+            <div class="me" style="margin-left: 40px;display: flex;">{{ city2 }}天气：</div>
             <div class="weather-summary">
-                <p style="font-size: 35px;margin-left: 20px;">{{ weather.temp }}<span>度</span></p>
+                <p style="font-size: 35px;margin-left: -50px;">{{ weather.temp }}<span>度</span></p>
                 <div class="weather-describe" style="margin-left: 50px;">
                     <div class="weather-text">{{ weather.text }}</div>
                     <div style="margin-top: 20px;" class=" weather-feelslike">体感温度：{{ weather.feelsLike }}度</div>
                 </div>
-                <img :src="`src/assets/images/icons/${weather.icon}.svg`" alt="" style="height: 70px;width: 70px;margin-left: 100px;">
             </div>
             <ul class="weather-item"  style="margin: 0 80px 0 80px;">
                 <li>
@@ -294,7 +293,7 @@ function chartInit1(){
 }
 div{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     color: #bacfd8;
 }
 .me{
