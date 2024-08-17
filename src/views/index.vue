@@ -223,6 +223,7 @@ function chartInit1(){
     background: linear-gradient(#5e8ed1,#3371d4);
     height: 100vh;
     width: 100%;
+    overflow:auto;
 }
 .search{
     display: flex;
